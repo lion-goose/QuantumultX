@@ -2,8 +2,7 @@ const WIFI_DONT_NEED_PROXYS = ['32612-5G'];
 
 if (wifiChanged()) {
   const mode = WIFI_DONT_NEED_PROXYS.includes($network.wifi.ssid)
-    ? 'rule'
-    : 'direct';
+    ? 'rule' : 'direct';
   $surge.setOutboundMode(mode);
   $notification.post(
     'Surge',
