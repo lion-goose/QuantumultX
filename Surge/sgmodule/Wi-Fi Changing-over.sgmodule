@@ -1,0 +1,5 @@
+#!name=Wi-Fi Changing-over
+#!desc=根据Wi-Fi情况自动调整代理策略
+
+[Script]
+script1 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/r21zy20/Surge/main/Wi-Fi%20Changing-over/wifi-changed.js
