@@ -1,0 +1,10 @@
+#!name=Get Cookies
+#!desc=根据说明获取cookie，完成后可关闭
+
+[MITM]
+hostname = rewards.bing.com
+
+[Script]
+# > 登录 https://rewards.bing.com 获取 Cookie
+备注：可切换地区领取积分（有些地区貌似不支持或活动做不完）
+Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path= https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
