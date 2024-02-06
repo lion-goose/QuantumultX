@@ -1,4 +1,4 @@
-const WIFI_DONT_NEED_PROXYS = ['32612-5G'];
+const WIFI_DONT_NEED_PROXYS = ['32612-5G', 'CMCC-JF3P_5G', '20-4_5G'];
 const CURRENT_WIFI_SSID_KEY = 'current_wifi_ssid';
 
 if (wifiChanged()) {
